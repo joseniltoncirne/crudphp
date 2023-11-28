@@ -1,0 +1,90 @@
+body {
+    background-color: #241f4e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: 3px 3px 0px black;
+}
+
+#nav {
+    width: 170px;
+    background-color: #4a37c5;
+    font-size: 1em;
+    color: white;
+    padding: 10px 50px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+#nav:hover {
+    background-color: #291f6c;
+}
+
+table {
+    background-color:  #B7B2D7;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.77);
+    width: 50%;
+   
+}
+
+table, th, td {
+    border-bottom: 1px solid black;
+    padding: 8px 3px;
+    text-align: center;
+}
+
+
+
+.acoes {
+    text-align: center;
+}
+
+button {
+    width: 50%;
+    background-color: green;
+    font-size: 1em;
+    color: white;
+    padding: 5px 20px;
+    margin: 2.3px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #291f6c;
+}
+
+button#editar{
+    background-color: rgba(193, 130, 13, 0.874);
+}
+
+#editar:hover {
+    background-color: rgba(131, 85, 0, 0.801);
+}
+
+button#deletar {
+    background-color: rgba(255, 0, 0, 0.801);
+}
+
+#deletar:hover {
+    background-color: rgba(130, 0, 0, 0.801);
+}
+
+button#read {
+    background-color: rgb(88, 88, 245);
+}
+
+#read:hover {
+    background-color: rgba(53, 53, 156, 0.799);
+}
+
